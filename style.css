@@ -1,0 +1,84 @@
+:root{
+    --laranja:#FF4C13;
+    --azul: 
+}
+
+body{
+    
+}
+
+
+
+.main{
+    display: flex;
+    width: 100%;
+
+}
+
+#form{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    border: rgba(3, 3, 84, 0.251);
+    border-radius: 20px;
+
+}
+
+#form form{
+    margin-top:70px;
+    
+}
+
+#form img{
+    margin-top: 20px;
+}
+
+.sidebar{
+    width: 200px;
+    
+    color: white;
+    text-align: center;
+    font-weight: 10px;
+    font-size: 20px;
+    height: 100vh !important;
+    background-color: #2a2422 !important;
+}
+.logo{
+
+    background: url("./PORTOBEIRA.jpg"), no-repeat; 
+    height: 100vh;
+
+    width: 50%;
+
+}
+
+.logo img{
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#login-btn{
+    background-color: var(--laranja) !important;
+    
+}
+
+.sidebar div{
+    border: 1px solid rgba(167, 158, 158, 0.477);
+
+}
+
+.sidebar div:hover{
+    cursor: pointer;
+    color:#2a2422;
+    background-color: rgb(112, 112, 112);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+nav {
+    font: bold;
+}
